@@ -59,6 +59,6 @@
 > **Команда:**
 > <br>git remote add origin https://github.com/Chetxtn/itprogerGit.git
 
-13. Відправляємо основну гілку в віддалену репо
+13. Відправляємо основну гілку в віддалену репозиторію
 > **Команда:**
-> <br>git remote add origin https://github.com/Chetxtn/itprogerGit.git
+> <br>git push -u origin master
