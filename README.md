@@ -3,18 +3,23 @@
 
 1. Ствоерння нового проєкту.
 2. Виконуємо команду через **Git Bash** термінал і створюємо README.md для фіксації своїх дій!
-
-> git init<br>
-> Відповідь: Initialized empty Git repository in D:/Development/Java/courses/itprogerGit/.git/
+> **Команда:**
+> <br>git init
+> <br>Відповідь: Initialized empty Git repository in D:/Development/Java/courses/itprogerGit/.git/
 
 3. Налаштовуємо .gitignore
-
 > .idea/
 > <br>out/
 > <br>!**/src/main/**/out/
 > <br>!**/src/test/**/out/
 > <br>bin/
-> <br>itprogerGit.iml
+> <br>admin/
+> <br>config/
+> <br>*.sass
+
+
+
+
 
 4. Створюмо перші файли проєкту Main.java
 5. Додаємо всі файли в локальне сховище
@@ -33,6 +38,27 @@
 > **Команда:**
 > <br>git commit -m "init project"
 
-8. Переходимо до створення нової гілки
+8. Створюємо нову гілку
 > **Команда:**
-> <br>git status
+> <br>git branch blog
+
+9. Переходимо в нову гілку і створюємо "папку blog з файлами: index.js, index.html;"
+> **Команда:**
+> <br>git switch blog
+
+10. Зберігаємо стан цієї гілки
+> **Команда:**
+> <br>git add .
+> <br>git commit -m "Create structure blog"
+
+11. Повертаємося до основної гілки
+> **Команда:**
+> <br>git switch master
+
+12. Додаємо нашу створену репозиторію на github
+> **Команда:**
+> <br>git remote add origin https://github.com/Chetxtn/itprogerGit.git
+
+13. Відправляємо основну гілку в віддалену репо
+> **Команда:**
+> <br>git remote add origin https://github.com/Chetxtn/itprogerGit.git

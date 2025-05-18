@@ -4,6 +4,10 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 bin/
+admin/
+config/
+*.sass
+
 
 ### Project ###
 itprogerGit.iml
