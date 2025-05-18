@@ -18,5 +18,21 @@
 
 4. Створюмо перші файли проєкту Main.java
 5. Додаємо всі файли в локальне сховище
-> git add .
-6. 
+> **Команда:**
+> <br>git add .
+6. Перевірка статусу
+> **Команда:**
+> <br>git status
+
+> Відповідь:
+> <br>new file:   .gitignore
+> <br>new file:   README.md
+> <br>new file:   src/com/git/Main.java
+
+7. Виконуємо commit
+> **Команда:**
+> <br>git commit -m "init project"
+
+8. Переходимо до створення нової гілки
+> **Команда:**
+> <br>git status
